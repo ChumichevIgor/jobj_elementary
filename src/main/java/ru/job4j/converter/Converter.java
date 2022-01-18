@@ -22,7 +22,7 @@ public class Converter {
         System.out.println("140 rubles are " + euro + " euro");
         float dollar = Converter.rubleToDollar(140);
         in = 140;
-        expected = 2;
+        expected = 3;
         out = Converter.rubleToDollar(in);
         passed = expected == out;
         System.out.println("140 rubles are 2. Test result : " + passed);
