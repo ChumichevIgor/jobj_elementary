@@ -29,7 +29,7 @@ public class X2Test {
     }
 
     @Test
-    public void whenA1B1C0X1Then1() {
+    public void whenA0B1C0X1Then1() {
         int a = 0;
         int b = 1;
         int c = 0;
