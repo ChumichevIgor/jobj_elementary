@@ -15,11 +15,11 @@ public class MaxTest {
     }
 
     @Test
-    public void whenMax2to1Then1() {
+    public void whenMax2to1Then2() {
         int left = 2;
         int right = 1;
         int result = Max.max(left, right);
-        int excepted = 1;
+        int excepted = 2;
         Assert.assertEquals(result, excepted);
     }
 
