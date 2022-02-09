@@ -1,6 +1,5 @@
 package ru.job4j.condition;
 
-@SuppressWarnings("EnhancedSwitchMigration")
 public class SwitchWeek {
     public static String nameOfDay(int day) {
         String name;
@@ -31,10 +30,5 @@ public class SwitchWeek {
                 break;
         }
         return name;
-    }
-
-    public static void main(String[] args) {
-        String result = SwitchWeek.nameOfDay(2);
-        System.out.println(result);
     }
 }
