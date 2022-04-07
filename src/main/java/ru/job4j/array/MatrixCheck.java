@@ -4,8 +4,7 @@ public class MatrixCheck {
     public static boolean monoHorizontal(char[][] board, int row) {
         boolean result = true;
         for (int cell = 0; cell < board[row].length; cell++) {
-            char index = 'X';
-            if (board[row][cell] != index) {
+            if (board[row][cell] != 'X') {
                 result = false;
                 break;
             }
