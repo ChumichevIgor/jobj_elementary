@@ -11,8 +11,8 @@ public class Machine {
         for (int coin : coins) {
             while (sum >= coin) {
                 sum -= coin;
+                rsl[size] = coin;
                 size++;
-                rsl[size - 1] = coin;
             }
         }
         return Arrays.copyOf(rsl, size);
